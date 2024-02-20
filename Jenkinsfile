@@ -6,7 +6,7 @@ pipeline {
     }
 */
     environment {
-        registry = "rajatsa/vprofileapp"
+        registry = "rajatsa/kubevprofile"
         registryCredential = "dockerhub"
     }
 
