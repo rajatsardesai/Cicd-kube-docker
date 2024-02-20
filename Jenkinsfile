@@ -6,8 +6,8 @@ pipeline {
     }
 */
     environment {
-        registry = "rajatsa/vprofileapp:latest"
-        registryCredential = "dockerhub"
+        registry = 'rajatsa/vprofileapp:latest'
+        registryCredential = 'dockerhub'
     }
 
     stages{
